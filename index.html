@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer Formulario</title>
+</head>
+<body>
+    <form method="post">
+        <label for="input-correo" >Correo:</label>
+        <input name="input-correo" type="email" required autofocus /> <br/>
+       
+        <label for="input-contraseña" >Contraseña:</label>
+        <input name="input-contraseña" type="password" required/> <br/>
+       
+        <label for="url-Input">URL:</label>
+        <input name="Input-url" type="url" id="urlInput" placeholder="Escribe la URL de tu página web personal" required><br/>
+       
+        <label for="Input-date">Fecha de Nacimiento:</label>
+        <input type="date" id="Input-date" name="Input-date" required><br>
+       
+        <label for="Input-datetime">Fecha y Hora:</label>
+        <input type="datetime-local" id="Inputdatetime" name="Input-datetime" required> </br>
+
+        <label for="Input-number"> Número:</label>
+        <input name="Input-number" id="Inputnumber" type="number"  min="-10" max="10" required><br>
+
+        <label for="telInput">Teléfono:</label>
+        <input name="Input-tel" id="Inputtel" type="tel" required><br>
+       
+        <input type="submit" value="Iniciar Sesión" />
+        <input type="submit" value="Enviar" />
+        <input type="submit" value="Reset" />
+    </form>
+</body>
+</html>
